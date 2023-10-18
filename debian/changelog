@@ -1,3 +1,28 @@
+node-unicode-match-property-value-ecmascript (2.1.0+ds-1) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.1, no changes needed.
+  * New upstream version 2.1.0+ds
+
+ -- Yadd <yadd@debian.org>  Tue, 22 Nov 2022 18:08:47 +0100
+
+node-unicode-match-property-value-ecmascript (2.0.0+ds-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Julien Puydt ]
+  * Fix typo Root-Requires-Root instead of Rules-Requires-Root in d/control.
+
+  [ Yadd ]
+  * Add debian/gbp.conf
+  * Fix filenamemangle
+  * Drop dependency to nodejs
+  * Use dh-sequence-nodejs auto install
+  * Enable upstream test using tape instead of ava
+  * Update build dependencies
+
+ -- Yadd <yadd@debian.org>  Wed, 17 Nov 2021 21:34:49 +0100
+
 node-unicode-match-property-value-ecmascript (2.0.0+ds-1) unstable; urgency=medium
 
   * New upstream release.
